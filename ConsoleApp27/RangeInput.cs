@@ -10,7 +10,7 @@ namespace ConsoleApp27
         public RangeInput(int first, int length)
         {
             InputNums = new List<int>();
-            for (int i = first; i <= first + length; i++)
+            for (int i = first; i <= first + length-1; i++)
             {
                 InputNums.Add(i);
             }

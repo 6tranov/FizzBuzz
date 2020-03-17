@@ -7,7 +7,7 @@ namespace ConsoleApp27
     {
         static void Main(string[] args)
         {
-            IInput input = new RangeInput(1, 120);
+            IInput input = new RangeInput(1, 210);
 
             Chain fizzChain = new FizzChain();
             Chain buzzChain = new BuzzChain();
